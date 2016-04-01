@@ -51,8 +51,7 @@ import tempfile
 print("\nSimple Jobs Distribution Framework\nversion: {}, platform: {}".format(__version__, platform.system()))
 
 # host must include the protocol (http://, https:// ...)
-#host = 'http://penelope.unito.it:8800'
-SERVER = "http://130.192.143.253:1111"
+SERVER = ""
 
 system = platform.system()
 
